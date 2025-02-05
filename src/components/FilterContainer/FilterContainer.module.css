@@ -1,0 +1,32 @@
+.filterContainer {
+  position: absolute;
+  z-index: 100;
+  background-color: white;
+  width: 85%;
+  padding: 0.7rem 0.8rem;
+  top: 7rem;
+  margin: 0 auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filterContainer button {
+  font-weight: 600;
+  text-decoration: underline;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  font-size: medium;
+  color: var(--primary-desaturated-dark-cyan);
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.detail h1 {
+  font-size: large;
+  font-weight: 600;
+  color: var(--primary-desaturated-dark-cyan);
+}
+
+.new {
+  font-weight: 700;
+  background-color: var(--primary-desaturated-dark-cyan);
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 50px;
+}
+
+.featured {
+  font-weight: 700;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 50px;
+  background-color: var(--neutral-dark-grayish-cyan);
+}
+
+.position {
+  font-weight: 800;
+  color: var(--neutral-dark-grayish-cyan);
+}
+
+.contractDetails {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: gray;
+}
+
+.contractDetails p {
+  font-size: medium;
+  font-weight: 600;
+}

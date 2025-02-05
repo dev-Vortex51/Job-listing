@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.container p {
+  width: fit-content;
+  color: var(--primary-desaturated-dark-cyan);
+  background-color: var(--neutral-light-grayish-cyan);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  transition: all 0.5s;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container p:hover {
+  background-color: var(--primary-desaturated-dark-cyan);
+  color: white;
+}

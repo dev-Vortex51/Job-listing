@@ -1,0 +1,24 @@
+.header {
+  background-color: var(--primary-desaturated-dark-cyan);
+  width: 100%;
+  height: 9rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/bg-header-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .overlay {
+    background-image: url("/public/bg-header-desktop.svg");
+  }
+}

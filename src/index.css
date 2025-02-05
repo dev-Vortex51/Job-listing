@@ -1,0 +1,42 @@
+:root {
+  --primary-desaturated-dark-cyan: hsl(180, 29%, 50%);
+  --neutral-grayish-cyan: hsl(180, 52%, 96%); /* background */
+
+  --neutral-light-grayish-cyan: hsl(180, 31%, 95%); /* Filter tablets */
+
+  --neutral-dark-grayish-cyan: hsl(180, 14%, 20%);
+  --body-font-size: 15px;
+  --border-radius: 4px;
+  --box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.2);
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url(/static/LeagueSpartan-Bold.ttf) format("truetype"),
+    url(/static/LeagueSpartan-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url(/static/LeagueSpartan-Medium.ttf) format("truetype"),
+    url(/static/LeagueSpartan-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  background-color: var(--neutral-grayish-cyan);
+  height: 100vh;
+  font-size: var(--body-font-size);
+}
+
+img {
+  width: 100%;
+}
