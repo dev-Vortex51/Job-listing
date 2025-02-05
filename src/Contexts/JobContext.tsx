@@ -46,7 +46,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 1,
       company: "Photosnap",
-      logo: "./public/photosnap.svg",
+      logo: "/photosnap.svg",
       new: true,
       featured: true,
       position: "Senior Frontend Developer",
@@ -61,7 +61,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 2,
       company: "Manage",
-      logo: "./public/manage.svg",
+      logo: "/manage.svg",
       new: true,
       featured: true,
       position: "Fullstack Developer",
@@ -76,7 +76,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 3,
       company: "Account",
-      logo: "./public/account.svg",
+      logo: "/account.svg",
       new: true,
       featured: false,
       position: "Junior Frontend Developer",
@@ -91,7 +91,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 4,
       company: "MyHome",
-      logo: "./public/myhome.svg",
+      logo: "/myhome.svg",
       new: false,
       featured: false,
       position: "Junior Frontend Developer",
@@ -106,7 +106,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 5,
       company: "Loop Studios",
-      logo: "./public/loop-studios.svg",
+      logo: "/loop-studios.svg",
       new: false,
       featured: false,
       position: "Software Engineer",
@@ -121,7 +121,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 6,
       company: "FaceIt",
-      logo: "./public/faceit.svg",
+      logo: "/faceit.svg",
       new: false,
       featured: false,
       position: "Junior Backend Developer",
@@ -136,7 +136,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 7,
       company: "Shortly",
-      logo: "./public/shortly.svg",
+      logo: "/shortly.svg",
       new: false,
       featured: false,
       position: "Junior Developer",
@@ -151,7 +151,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 8,
       company: "Insure",
-      logo: "./public/insure.svg",
+      logo: "/insure.svg",
       new: false,
       featured: false,
       position: "Junior Frontend Developer",
@@ -166,7 +166,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 9,
       company: "Eyecam Co.",
-      logo: "./public/eyecam-co.svg",
+      logo: "/eyecam-co.svg",
       new: false,
       featured: false,
       position: "Full Stack Engineer",
@@ -181,7 +181,7 @@ const AppProvider = ({ children }: ProviderProps) => {
     {
       id: 10,
       company: "The Air Filter Company",
-      logo: "./public/the-air-filter-company.svg",
+      logo: "/the-air-filter-company.svg",
       new: false,
       featured: false,
       position: "Front-end Dev",
